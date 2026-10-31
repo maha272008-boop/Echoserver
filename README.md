@@ -62,9 +62,12 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
 print(f"Received {data!r}")
 ```
 ## OUTPUT:
-###server output
+
+## server output
 ![server](./img/echo-server.png)
-###client output
+
+## client output
 ![client](./img/echo-client.png)
+
 ## RESULT:
 The program is executed successfully
